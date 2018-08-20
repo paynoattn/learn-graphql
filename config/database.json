@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "app",
+    "password": "password",
+    "database": "graphql-app",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "app",
+    "password": "password",
+    "database": "graphql-test",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
