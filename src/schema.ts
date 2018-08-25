@@ -8,8 +8,9 @@ export const query = new GraphQLObjectType({
       type: GraphQLString,
       description: 'Info about this application',
       resolve: () => `
-      This application is a graphl application for creating, viewing and updating students of 
-      Hogwarts School of Witchcraft and Wizardry`
+        This application is a graphl application for creating players, and getting information for fantasy
+        based tabletop role playing games
+      `.replace(/(?:\r\n|\r|\n)/g, '')
     }
   })
 })
